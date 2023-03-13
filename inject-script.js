@@ -1,4 +1,6 @@
 if (window.playEnd) {
   window.playEnd();
-  window.gotoExam();
+  setTimeout(() => {
+    window.gotoExam();
+  }, 1000);
 }
