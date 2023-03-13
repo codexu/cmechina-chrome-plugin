@@ -1,9 +1,9 @@
 {
 	"manifest_version": 3,
-	"name": "Chrome插件demo",
+	"name": "好医生学习插件",
 	"version": "1.0",
-	"description": "最简单的Chrome插件demo，需要快速做一个简单的插件时可以基于这个仓库开发",
-	"author": "sxei",
+	"description": "快速学习和考试",
+	"author": "codexu",
 	"icons":
 	{
 		"48": "icon.png",
@@ -15,8 +15,7 @@
 			"16": "icon.png",
 			"24": "icon.png",
 			"32": "icon.png"
-		},
-		"default_popup": "popup.html"
+		}
 	},
 	"content_scripts": [
 		{
