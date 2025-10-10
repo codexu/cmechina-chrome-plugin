@@ -1,6 +1,6 @@
 export default defineContentScript({
   matches: ['https://www.cmechina.net/*'],
-  async main(ctx) {
+  async main() {
     await injectScript("/injected.js", {
       keepInDom: true,
     });

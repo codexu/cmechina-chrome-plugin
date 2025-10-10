@@ -2,7 +2,7 @@
   "name": "cmechina-chrome-plugin",
   "description": "manifest.json description",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "scripts": {
     "dev": "wxt",
@@ -11,18 +11,16 @@
     "build:firefox": "wxt build -b firefox",
     "zip": "wxt zip",
     "zip:firefox": "wxt zip -b firefox",
-    "zip:chrome": "wxt zip -b chrome",
     "compile": "vue-tsc --noEmit",
     "postinstall": "wxt prepare"
   },
   "dependencies": {
-    "vue": "^3.5.12"
+    "vue": "^3.5.21"
   },
   "devDependencies": {
-    "@types/chrome": "^0.0.280",
-    "@wxt-dev/module-vue": "^1.0.1",
-    "typescript": "5.6.3",
-    "vue-tsc": "^2.1.10",
-    "wxt": "^0.19.13"
+    "@wxt-dev/module-vue": "^1.0.2",
+    "typescript": "^5.9.2",
+    "vue-tsc": "^3.0.6",
+    "wxt": "^0.20.6"
   }
 }
