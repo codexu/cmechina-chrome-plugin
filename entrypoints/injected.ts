@@ -1,8 +1,9 @@
 export default defineUnlistedScript(async () => {
   const win = window as any;
-  
+
+  await new Promise(resolve => setTimeout(resolve, 1000));
   while (!win.cc_js_Player) {
-    await new Promise(resolve => setTimeout(resolve, 100));
+    await new Promise(resolve => setTimeout(resolve, 500));
   }
   
   win.cc_js_Player.jumpToTime(300);
